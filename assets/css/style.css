@@ -16,14 +16,16 @@ input#email.input-inicio{
 	border: none;
 	background-color: #fff;
 	margin: -14px;
+	text-indent:30px;
 }
-input#pass-inicio.input-inicio{
+input#pass.input-inicio{
 	display: block;
 	width: 100%;
 	height: 60px;
 	border: none;
 	background-color: #fff;
 	margin: 0;
+	text-indent:30px;
 }
 input#submitButton.input-inicio{
 	display: block;
@@ -43,14 +45,27 @@ input#submitButton.input-inicio{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 }
+/*input#submitButton.input-inicio:hover{
+	background-color: #f6f000;
+}*/
 
 div.col.s12.footer-inicio p{
 	color:#fff;
+	margin-left: 20px;
 }
 div.col.s12.footer-inicio p a{
-	color: #F6A800;;
+	color: #F6A800;
 }
 div.col.s12.footer-inicio{
 	margin-top: 30px;
+}
+/*mensaje de error*/
+div.col.s12.error{
+	background-color: #F6A800;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -25px;
+    color: #3E3F41;
+    font-weight: 700;
 }
 
