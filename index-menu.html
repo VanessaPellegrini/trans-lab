@@ -18,48 +18,46 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Materialize CSS-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style-menu.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/media.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/common.css">
 </head>
 <body>
-  <section id="inicio">
-    <div class="container">
-      	<div class="row" align="center">
-	        <div class="col s10 push-s1">
-	        	<img src="assets/docs/imagen.png" class="logo">
-	        	<h1>TRANS-LAB</h1>            
+  	<nav>
+    	<div class="container">
+      		<div class="row" align="center">
+	        	<div class="col s10 push-s1">
+	        		<h5>TRANS-LAB</h5>
+		        	<ul id="slide-out" class="side-nav">
+	    				<li><a href="#!"><i class="material-icons">navigation</i>Calcular Tarifa</a></li>
+					    <li><a href="#!"><i class="material-icons">assignment_ind</i>Perfil</a></li>
+					 	<li><a href="#!"><i class="material-icons">zoom_in</i>Preguntas frecuentes</a></li>
+					    <li><a href="#!"><i class="material-icons" id="btn-close">trending_flat</i>Home</a></li>
+					</ul>
+					<a href="index-menu.html" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a> 
+				</div>        
 	        </div>
-	        <div class="col s12 input-field input-inicio-div">
-	        	<label for="email"><i class="material-icons prefix">perm_identity</i></label>
-	        	<input type="email" name="email" class="input-inicio" id="email" placeholder="Ej. minombre@xxxx.xxx" required/>
-        	</div>
-	        <div class="col s12 input-field input-inicio-div">
-	        	<label for="pass"><i class="material-icons prefix">lock_outline</i></label>
-	        	<input type="number" name="pass" class="input-inicio" id="pass" placeholder="Debe contener máximo 8 dígitos" required/>
-	        </div>
-	        <div class="col s12 input-field input-inicio-div">
-	        	<input type="submit" class="input-inicio" id="submitButton" value="INICIAR SESIÓN">
-	        </div>
-   		</div>
-    	<div class="row">
-	      	<div class="col s6">
-		        <a href="#"><small>¿Olvidaste tu contraseña?</small></a>
-		   </div>
-	        <div class="col s12 footer-inicio">
-				<p>¿NO TIENES CUENTA? <a href="#">REGISTRATE</a></p>	
-	        </div>
-      </div> 
-      <div class="row">
-      		<div class="col s12 error" id="error"></div>
-      </div>
-    </div>
-  </section>       
+	    </div>
+	</nav>
+	<div class="caja-menu col s10">
+	    <div class="col s10">
+    		<button class="btn-menu"><a href="">VER SALDO</a></button>
+        </div>
+	    <div class="col s10">
+	        <button class="btn-menu"><a href="">CALCULAR TARIFA</a></button>
+	    </div>
+	    <div class="col s10">
+	    	<button class="btn-menu"><a href="">PERFIL</a></button>
+	    </div>
+	    <div class="col s10">
+	        <button class="btn-menu"><a href="">PREGUNTAS FRECUENTES</a></button>
+	    </div>
+	</div>     
 </body>
 	<!-- JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- Materialize JS-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-	<script type="text/javascript" src="assets/js/validacion-inicio.js"></script>
+	<script type="text/javascript" src="assets/js/menu.js"></script>
 </body>
 </html>

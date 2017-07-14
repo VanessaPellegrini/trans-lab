@@ -1,11 +1,12 @@
 /* YeyeYeee código aquí 
 amarillo #F6A800
-gris #3E3F41*/
+gris #3E3F41
+gris claro #DDDEE0*/
+
 *{
 	margin: 0;
 	padding: 0;
 }
 body{
-	background-color: #3E3F41;
 	font-family: 'Raleway', sans-serif;
 }

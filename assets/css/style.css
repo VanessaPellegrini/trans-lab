@@ -1,3 +1,6 @@
+body{
+	background-color: #3E3F41;
+}
 /*index-inicio*/
 h1{
 	color: #F6A800;
@@ -68,4 +71,5 @@ div.col.s12.error{
     color: #3E3F41;
     font-weight: 700;
 }
+/*index-menu*/
 

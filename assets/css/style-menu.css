@@ -1,0 +1,25 @@
+body{
+	background-color: #DDDEE0;
+	font-family: 'Raleway', sans-serif;
+}
+/*index-menu*/
+
+.btn-menu{
+	background-color: #F6A800;
+    width: 100%;
+    border: none;
+    height: 50px;
+    
+    display: block;
+    margin-top: 20px;
+}
+.btn-menu a{
+	color: #fff;
+	font-weight: 700;
+}
+div.caja-menu{
+	margin-top: 40%;
+}
+h5{
+	display: inline-block;
+}
