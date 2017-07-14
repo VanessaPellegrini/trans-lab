@@ -23,9 +23,3 @@ div.caja-menu{
 h5{
 	display: inline-block;
 }
-ul#slide-out.side-nav li a i.material-icons{
-	color: #F6A800;
-}
-ul#slide-out.side-nav li a{
-	font-size: 16px;
-}

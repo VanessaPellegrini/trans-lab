@@ -30,3 +30,19 @@ body{
 	font-weight: 700;
 	padding: 7%;
 }
+input#calcular.btn-calcular{
+	color: #fff;
+}
+.flex-box{
+	display: flex;
+}
+#div-tarjeta{
+	padding: 5px;
+    margin-left: 40px;
+}
+#div-tarifa{
+	padding: 5px;
+}
+.tata{
+	margin-top: -20px;
+}

@@ -28,7 +28,7 @@
       		<div class="row" align="center">
 	        	<div class="col s10 push-s1">
 	        	<h5>TRANS-LAB</h5>
-		        	<ul id="slide-out" class="side-nav">
+		        	<ul id="slide-out" class="side-nav" align="left">
 		        		<li>
 		        			<a href="index-saldo.html"><i class="material-icons">payment</i>Ver Saldo</a>
 		        		</li>
@@ -57,27 +57,27 @@
 	    	</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="row tarifa">
-			<div class="col s6 center-align">
-  				<label>Tarifa</label>
-			  	<select class="browser-default">
-			    	<option value="" disabled selected>Elije una opción</option>
+	<div class="container tata">
+		<div class="row tarifa" align="center">
+			<div class="col s12 flex-box">
+			<div id="div-tarifa">
+				<label>Tarifa</label>
+			  	<select class="browser-default" id="tarifa">
+			    	<option value="" disabled selected>Elige una opción</option>
 			    	<option value="1">$640</option>
 			    	<option value="2">$680</option>
 			    	<option value="3">$740</option>
 			  	</select>
 			</div>
-		</div>
-		<div class="row tarjeta">
-			<div class="col s6 center-align">
-  			  	<label>Tarjeta</label>
-  				<select class="browser-default">
-    				<option value="" disabled selected>Elige una tarjeta</option>
-   					<option value="1">Option 1</option>
-    				<option value="2">Option 2</option>
-    				<option value="3">Option 3</option>
-  				</select>
+  				<div id="div-tarjeta">
+  					<label>Tarjeta</label>
+	  				<select class="browser-default">
+	    				<option value="" disabled selected >Elige una tarjeta</option>
+	   					<option value="1">Option 1</option>
+	    				<option value="2">Option 2</option>
+	    				<option value="3">Option 3</option>
+	  				</select>
+  				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -110,5 +110,6 @@
 	<!-- Materialize JS-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 	<script type="text/javascript" src="assets/js/menu.js"></script>
+	<script type="text/javascript" src="assets/js/calcular.js"></script>
 </body>
 </html>

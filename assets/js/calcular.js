@@ -1,13 +1,6 @@
-//console.log("funciona");
+console.log("funciona calcular");
 $(document).ready(function(){
-  var imprimirSaldo = function(saldo) {
-    $(".cajaPapa").append('<div class="titulo">'+
-        '<p>SALDO TOTAL</p>'+
-        '</div><div class="caja-amarilla">'+
-        saldo.saldoTarjeta+
-        '</div>');
-  }
-  
+
   $("#calcular").click(function(e) {
     var saldo = $("#tarjeta").val();
     console.log(saldo)
@@ -35,5 +28,25 @@ $(document).ready(function(){
     })
     //limpia la caja pero debe ir despues porque sino deja el value vacio y localStorage no guarda nada
     $("#tarjeta").val('');
-  });
+
+  var calcularPasaje = function(saldo){
+    $('select#tarifa').on('change',function(saldo){
+      var valor = $(this).val();
+      console.log(valor);
+        if(valor == 1){
+          var resultado = saldo.saldoTarjeta - 640;
+          console.log(resultado);
+        }
+
+        /*if(valor == 1){
+          saldo.saldoTarjeta.parseInt() - 680;
+        }
+
+        if(valor == 3){
+          saldo.saldoTarjeta.parseInt() - 740;
+        }*/
+
+  };
+calcularPasaje();
+
 });
