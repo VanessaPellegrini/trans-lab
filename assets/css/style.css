@@ -36,7 +36,7 @@ input#submitButton.input-inicio{
 	height: 60px;
 	border: none;
 	background-color: #fff;
-	margin: -13px;
+	margin: -15px;
 }
 div.col.s6 a small{
 	text-decoration: none;
@@ -64,11 +64,10 @@ div.col.s12.footer-inicio{
 }
 /*mensaje de error*/
 div.col.s12.error{
-	background-color: #F6A800;
+	color: #F6A800;
     font-size: 12px;
     text-align: center;
     margin-top: -25px;
-    color: #3E3F41;
     font-weight: 700;
 }
 /*index-menu*/
