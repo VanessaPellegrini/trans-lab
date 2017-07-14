@@ -5,11 +5,12 @@ $(document).ready(function(){
   $("#tarjeta").html(localStorage.getItem("numTarjeta"));
 
   $("#agregarTarjeta").on('click', function(e) {
+    e.preventDefault();
     function isNumber(number) {
         var regex = /^[0-9]+$/;
       return regex.test(number);
     };
-    e.preventDefault();
+    
     if ($("#tarjeta").val() == '') {
       alert('Agrega un nuevo número de tarjeta..');
     }else {

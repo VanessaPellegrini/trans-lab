@@ -1,6 +1,6 @@
 //console.log("funciona");
 $(document).ready(function(){
-	console.log("hola");
+	console.log("holi soy el menu, funciono :3");
 	// Initialize collapse button
 	$(".button-collapse").sideNav();
 	
