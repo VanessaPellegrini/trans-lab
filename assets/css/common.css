@@ -10,3 +10,12 @@ gris claro #DDDEE0*/
 body{
 	font-family: 'Raleway', sans-serif;
 }
+nav{
+	background-color: #3E3F41;
+}
+.icono-menu{
+	margin-left: -50px;
+}
+h5{
+	display: inline-block;
+}

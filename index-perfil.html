@@ -18,14 +18,14 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Materialize CSS-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style-menu.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style-perfil.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/media.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/common.css">
 </head>
 <body>
   	<nav>
     	<div class="container">
-      		<div class="row" align="left">
+      		<div class="row" align="center">
 	        	<div class="col s10 push-s1">
 	        	<h5>TRANS-LAB</h5>
 		        	<ul id="slide-out" class="side-nav">
@@ -40,22 +40,28 @@
 	        </div>
 	    </div>
 	</nav>
-	<div class="container">
-		<div class="row caja-menu">
-			<div class="col s12">
-    			<button class="btn-menu"><a href="index-saldo.html">VER SALDO</a></button>
-        	</div>
-	    	<div class="col s12">
-	        	<button class="btn-menu"><a href="index-calcular.html">CALCULAR TARIFA</a></button>
-	    	</div>
-	    	<div class="col s12">
-	    		<button class="btn-menu"><a href="index-perfil.html">PERFIL</a></button>
-	    	</div>
-	    	<div class="col s12">
-	        	<button class="btn-menu"><a href="index-preguntas.html">PREGUNTAS FRECUENTES</a></button>
-	    	</div>
+	<div class="row">
+		<div class="col s12 center-align" id="user">
+			<img class="circle" src="assets/docs/136.jpg" alt="#">
 		</div>
-	</div>    
+	</div>
+	<section class="container">
+		<div class="row">
+			<div class="col s12 center-align">
+				<div class="email">
+					<p>wonderwoman@dc.com</p>
+					<!-- output email-->
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12 center-align">
+				<input type="number" name="tarjeta" class="input-tarjeta" id="tarjeta" placeholder="Número de tarjeta" required/>
+				<input type="submit" class="btn-tarjeta" id="agregarTarjeta" value="AGREGAR TARJETA">
+				<!--to-do-list-->
+			</div>
+		</div>
+	</section>  
 </body>
 	<!-- JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
