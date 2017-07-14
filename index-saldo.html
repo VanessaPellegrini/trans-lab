@@ -18,7 +18,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Materialize CSS-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style-menu.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style-saldo.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/media.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/common.css">
 </head>
@@ -29,11 +29,21 @@
 	        	<div class="col s10 push-s1">
 	        	<h5>TRANS-LAB</h5>
 		        	<ul id="slide-out" class="side-nav">
-		        		<li><a href="index-saldo.html"><i class="material-icons">payment</i>Ver Saldo</a></li>
-	    				<li><a href="index-calcular.html"><i class="material-icons">navigation</i>Calcular Tarifa</a></li>
-					    <li><a href="index-perfil.html"><i class="material-icons">assignment_ind</i>Perfil</a></li>
-					 	<li><a href="index-preguntas.html"><i class="material-icons">zoom_in</i>Preguntas frecuentes</a></li>
-					    <li><a href="index-menu.html"><i class="material-icons" id="btn-close">trending_flat</i>Home</a></li>
+		        		<li>
+		        			<a href="index-saldo.html"><i class="material-icons">payment</i>Ver Saldo</a>
+		        		</li>
+	    				<li>
+	    					<a href="index-calcular.html"><i class="material-icons">navigation</i>Calcular Tarifa</a>
+	    				</li>
+					    <li>
+					    	<a href="index-perfil.html"><i class="material-icons">assignment_ind</i>Perfil</a>
+					    </li>
+					 	<li>
+					 		<a href="index-preguntas.html"><i class="material-icons">zoom_in</i>Preguntas frecuentes</a>
+					 	</li>
+					    <li>
+					    	<a href="index-menu.html"><i class="material-icons" id="btn-close">trending_flat</i>Home</a>
+					    </li>
 					</ul>
 					<a href="index-menu.html" data-activates="slide-out" class="button-collapse"><i class="material-icons icono-menu">menu</i></a> 
 				</div>        
@@ -41,21 +51,39 @@
 	    </div>
 	</nav>
 	<div class="container">
-		<div class="row caja-menu">
+		<div class="row">
 			<div class="col s12">
-    			<button class="btn-menu"><a href="index-saldo.html">VER SALDO</a></button>
-        	</div>
-	    	<div class="col s12">
-	        	<button class="btn-menu"><a href="index-calcular.html">CALCULAR TARIFA</a></button>
-	    	</div>
-	    	<div class="col s12">
-	    		<button class="btn-menu"><a href="index-perfil.html">PERFIL</a></button>
-	    	</div>
-	    	<div class="col s12">
-	        	<button class="btn-menu"><a href="index-preguntas.html">PREGUNTAS FRECUENTES</a></button>
+				<input type="number" name="tarjeta" class="input-tarjeta" id="tarjeta" placeholder="Número de tarjeta" required/>
 	    	</div>
 		</div>
-	</div>    
+	</div>
+	<div class="container">
+		<div class="row tarjeta">
+			<div class="col s12 center-align">
+  				<select class="browser-default">
+    				<option value="" disabled selected>Elige una tarjeta</option>
+   					<option value="1">Option 1</option>
+    				<option value="2">Option 2</option>
+    				<option value="3">Option 3</option>
+  				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12 center-align">
+				<input type="submit" class="btn-calcular" id="calcular" value="VER SALDO">
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col s12 center-align">
+				<div class="titulo">
+					<p>SALDO TOTAL</p>
+				</div>
+				<div class="caja-amarilla">hola</div>
+			</div>
+		</div>
+	</div>   
 </body>
 	<!-- JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
