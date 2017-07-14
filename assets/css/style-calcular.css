@@ -1,0 +1,24 @@
+body{
+	background-color: #DDDEE0;
+}
+#tarjeta{
+	margin-top: 20px;
+}
+.tarifa, .tarjeta{
+	display: inline-block;
+}
+#agregarTarjeta{
+	background-color: #F6A800;
+    width: 100%;
+    border: none;
+    height: 50px;
+    
+    display: block;
+    margin-top: 20px;
+}
+.titulo{
+	background-color: #3E3F41;
+	color: #fff;
+	height: 30px;
+	padding: 1%;
+}

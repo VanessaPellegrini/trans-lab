@@ -1,0 +1,16 @@
+body{
+	background-color: #DDDEE0;
+	font-family: 'Raleway', sans-serif;
+}
+/*index-menu*/
+#user{
+	margin: 0;
+	padding: 0;
+	background-color: #F6A800;
+	height: 35vh;
+	width: 100%;
+	color: #fff;
+}
+h3{
+	padding: 60px;
+}
