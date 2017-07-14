@@ -30,3 +30,13 @@ p{
     display: block;
     margin-top: 20px;
 }
+input#tarjeta.input-tarjeta{
+	margin: 0;
+}
+/*agregado de numeros estilo to-do list*/
+ul.tarjetaIngresada li{
+	background-color: #F6A800;
+	color: #fff;
+	height: 30px;
+	padding: 1%;
+}
